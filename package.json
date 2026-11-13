@@ -1,0 +1,26 @@
+{
+  "name": "lab2-photo-sharing-backend-b23dcat053",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab 2 Express + MongoDB Atlas - Nguyen The Duc - B23DCAT053",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node db/dbLoad.js",
+    "test": "node --test test/*.test.js",
+    "test:api": "node test/api-smoke.js"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "5.2.1",
+    "mongoose": "8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
